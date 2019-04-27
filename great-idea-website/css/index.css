@@ -64,3 +64,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.navigation nav{
+	display: block;
+}
+
+.navigation a{
+	text-decoration: none;
+	text-align: center;
+	padding: 30px 30px;
+	float: left;
+	color: #989DA5;
+}
+
+.navigation .logo {
+	float: right;
+	padding: 20px 30px 30px 30px;
+	margin: 0 auto;
+
+}
+
+/* syling header */
+
+.intro-header{
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.block1{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+
+.block1 h1{
+	font-size: 60px;
+}
+
+.intro-header img{
+	float: right;	
+}
