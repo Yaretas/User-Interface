@@ -89,6 +89,12 @@ h1, h2, h3, h4, h5 {
 	color: #989DA5;
 }
 
+.navigation a:hover {
+	color: black;
+	font-size: 25px;
+	border-bottom: 3px dotted #989DA5;
+}
+
 .navigation .logo {
 	float: right;
 	padding: 20px 30px 30px 30px;
@@ -126,10 +132,15 @@ h1, h2, h3, h4, h5 {
 .block1 a{
 	text-decoration: none;
 	font-size: 15px;
-	padding: 8px;
+	padding: 5px 20px;
 	color: black;
 	border: 1px solid black;
 	border-radius: 4px;
+}
+
+.block1 a:hover{
+	color: white;
+	background: #989DA5;
 }
 
 .intro-header img{
@@ -153,14 +164,15 @@ main img{
 }
 .box2{
 	display: inline-block;
-	width: 40%;
+	width: 49%;
 	padding: 20px;
+	box-sizing: border-box;
 	margin: 0 auto; 
 }
 
 .box3{
 	display: inline-block;
-	width: 30%;
+	width: 33%;
 	margin: 0 auto;
 	padding: 20px;
 }
