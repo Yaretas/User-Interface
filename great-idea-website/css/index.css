@@ -141,19 +141,20 @@ h1, h2, h3, h4, h5 {
 /* styling main */
 
 main {
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
 }
 
 .box2{
-	width: 50%;
+	display: inline-block;
+	width: 40%;
 	margin: 20px 0; 
-	position: relative;
 }
 
 .box3{
+	display: inline-block;
 	width: 30%;
 	margin: 20px 0;
 }
@@ -166,4 +167,6 @@ address {
 
 footer{
 	text-align: center;
+	color: #989DA5;
+	padding: 20px;
 }
