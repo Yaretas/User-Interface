@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5 {
 .navigation .logo {
 	float: right;
 	padding: 20px 30px 30px 30px;
+
 	margin: 0 auto;
 
 }
@@ -119,11 +120,11 @@ h1, h2, h3, h4, h5 {
 
 .intro-header{
 	display: inline-block;
+	box-sizing: border-box;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	padding: 40px;
-	box-sizing: border-box;
 	overflow: hidden;
 	border-bottom: 1px solid black;
 }
